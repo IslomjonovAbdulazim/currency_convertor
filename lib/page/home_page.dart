@@ -6,8 +6,9 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    LiveCurrencyRate.convertCurrency("USD", "UZS", 100).then((res) {
-      print(res);
+    LiveCurrencyRate.convertCurrency("USD", "VND", 1).then((res) {
+      print(res.result);
+      print(res.message);
     });
     return Scaffold();
   }
