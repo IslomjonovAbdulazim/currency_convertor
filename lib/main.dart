@@ -1,8 +1,6 @@
 import 'package:currency_convertor/home_page.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:live_currency_rate/live_currency_rate.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
