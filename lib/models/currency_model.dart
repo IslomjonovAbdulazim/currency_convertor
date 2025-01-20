@@ -1,3 +1,5 @@
+// https://hatscripts.github.io/circle-flags/flags/br.svg
+
 class CurrencyModel {
   late String symbol;
   late String name;
