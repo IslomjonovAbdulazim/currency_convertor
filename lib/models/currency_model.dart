@@ -20,22 +20,22 @@ class CurrencyModel {
   CurrencyModel.fromJson(Map<String, dynamic> json) {
     symbol = json['symbol'];
     name = json['name'];
-    symbolNative = json['symbolNative'];
-    decimalDigits = json['decimalDigits'];
-    rounding = json['rounding'];
+    symbolNative = json['symbol_native'];
+    decimalDigits = json['decimal_digits'];
+    rounding = (json['rounding']).toInt();
     code = json['code'];
-    namePlural = json['namePlural'];
+    namePlural = json['name_plural'];
   }
 
   Map<String, dynamic> toJson() {
     return {
       'symbol': symbol,
       'name': name,
-      'symbolNative': symbolNative,
-      'decimalDigits': decimalDigits,
+      'symbol_native': symbolNative,
+      'decimal_digits': decimalDigits,
       'rounding': rounding,
       'code': code,
-      'namePlural': namePlural,
+      'name_plural': namePlural,
     };
   }
 
