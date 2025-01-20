@@ -16,6 +16,7 @@ dependencies:
   live_currency_rate: ^1.0.8
   dropdown_button2: ^2.3.9
   shared_preferences: ^2.3.5
+  flutter_svg: ^2.0.17
 
 dev_dependencies:
   flutter_test:
